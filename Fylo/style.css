@@ -1,0 +1,308 @@
+body {
+    background-color: hsl(218, 28%, 13%);
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+ul {
+    list-style-type: none;
+    float: right;
+    color: white;
+}
+li {
+    display: inline;
+    padding: 0px 30px;
+}
+.header {
+    
+    background-color: hsl(218deg 28% 17%);
+}
+.limit {
+    display: flex;
+    padding: 80px 0px;
+    width: 90%;
+    margin: auto;
+}
+.navigate {
+    width: 100%;
+}
+.section1 {
+    position: relative;
+    bottom: 50px;
+    background-color: hsl(218deg 28% 17%);
+}
+.section1img {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    z-index: 20;
+}
+.illustrate {
+    width: 100%;
+    margin-top: 50px;
+}
+.files {
+    text-align: center;
+    color: white;
+    font-size: 52px;
+}
+.files1 {
+    text-align: center;
+    color: white;
+    font-size: 31px;
+}
+span {
+    display: block;
+}
+.navlink {
+    color: white;
+    text-decoration: none;
+}
+.navlink:hover {
+    text-decoration: underline;
+}
+.getstarted {
+    background: linear-gradient(
+45deg
+, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: white;
+    padding: 20px 50px;
+    border: 0px;
+    border-radius: 50px;
+    margin-left: 338px;
+    font-size: 22px;
+    width: 30%;
+}
+.getstarted:hover {
+    background: linear-gradient(45deg, hsl(176, 68%, 64%), hsl(176, 68%, 64%));
+}
+.section2 {
+    position: relative;
+}
+.sect2div {
+    position: relative;
+}
+.firstdiv, .seconddiv {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+}
+.div1, .div2 {
+    width: 30%;
+    text-align: center;
+}
+.heading1, .heading2 {
+    font-size: 32px;
+}
+.div1para, .div2para {
+    font-size: 16px;
+    margin: 0px;
+}
+.sect3 {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.sect3div {
+    width: 45%;
+}
+.sect3divi {
+    width: 40%;
+}
+span {
+    display: block;
+}
+.sect3img {
+    width: 100%;
+}
+.sect3head {
+    font-size: 55px;
+    font-family: 'Raleway', sans-serif;
+}
+.sect3para {
+    font-size: 20px;
+}
+.sect3link {
+    position: relative;
+    color: hsl(176, 68%, 64%);
+    text-decoration: none;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    padding-bottom: 6px;
+}
+.sect3link:hover {
+    color: white;
+    border-color: white;
+}
+.sect4div {
+    background-color: hsl(219, 30%, 18%);
+    padding: 20px 50px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 4px 32px #1f293c;
+}
+.sect4 {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 300px;
+}
+.quote {
+    position: absolute;
+    bottom: 235px;
+    left: 10px;
+    z-index: -1;
+    width: 100px;
+}
+.imp {
+    font-size: 19px;
+    line-height: 1.5;
+
+}
+.profdiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profimg {
+    width: 100%;
+    border-radius: 50px;
+}
+.profimgdiv {
+    width: 10%;
+}
+.profcont {
+    width: 85%;
+    font-size: small;
+}
+.profheading {
+    margin: 5px 0px;
+}
+.profpara {
+    margin: 0px;
+    color: rgb(184, 181, 181);
+}
+footer {
+    position: relative;
+    background-color: hsl(216, 53%, 9%);
+    padding: 250px 0px 100px 100px;
+}
+.for-form {
+    position: absolute;
+    background-color: hsl(217, 28%, 15%);
+    text-align: center;
+    padding: 50px 50px 0px 50px;
+    bottom: 485px;
+    left: 445px;
+    color: white;
+    width: 50%;
+    border-radius: 20px;
+}
+form {
+    width: 100%;
+    margin: 40px 0px;
+}
+.fortext {
+    width: 65%;
+    padding: 20px;
+    border: 0px;
+    outline: 0px;
+    border-radius: 50px;
+    padding-left: 20px;
+}
+.getstarted1 {
+    background: linear-gradient(45deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    width: 30%;
+    padding: 20px;
+    border: 0px;
+    outline: 0px;
+    border-radius: 50px;
+    margin-left: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+}
+::placeholder {
+    font-size: 19px;
+    color: rgb(224, 223, 223);
+}
+.getstarted1:hover {
+    background: linear-gradient(45deg, hsl(176, 68%, 64%), hsl(176, 68%, 64%));
+}
+.earlyaccess {
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+.earlypara {
+    margin: 0px;
+    font-size: 20px;
+}
+.footerdiv {
+    width: 89%;
+    display: flex;
+    margin: auto;
+    color: white;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.divcont {
+    width: 30%;
+}
+.divcont1, .lorem1 {
+    width: 15%;
+}
+.footerlogo {
+    margin-left: 100px;
+}
+.lorem {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.location {
+    width: 15px;
+    position: absolute;
+    top: 5px;
+}
+.loremheading {
+    margin: 0px;
+}
+.fab {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.fa-facebook-f {
+    padding: 10px 13px;
+}
+.footerlink {
+    text-decoration: none;
+    color: white;
+}
+.footerlink:hover {
+    font-weight: 1000;
+}
+.bg-img {
+    position: absolute;
+    background-image: url(bg-curvy-desktop.svg);
+    width: 100%;
+    height: 194%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0px;
+    z-index: 0;
+}

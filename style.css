@@ -1,0 +1,67 @@
+.main1 {
+    background-image: url(found123-1.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+body {
+    margin: 0px;
+}
+.nav {
+    width: 55%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+    
+}
+.navlink {
+    display: inline;
+    padding: 20px;
+    font-size: 12px;
+    color: rgb(214, 212, 212);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navlink1 {
+    text-decoration: none;
+    color: rgb(214, 212, 212)
+}
+.navlink1:hover {
+    color: white;
+}
+.main2 {
+    width: 55%;
+    margin: auto;
+    color: white;
+}
+.ali {
+    margin-top: 30%;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lives {
+    margin-top: -40px;
+    font-size: 50px;
+    font-family: monospace;
+}
+span {
+    display: block;
+}
+.para1 {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: -30px;
+}
+.main3 {
+    background-color: white;
+    background-image: url(sugar-1.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
